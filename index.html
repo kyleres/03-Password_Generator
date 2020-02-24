@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <header>
+        <h1><span class="fa fa-lock" id="lock"></span>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Your password is:</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="..."
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+        <div class="card-footer">
+          <form id="form">
+            <label for="charLength">Password Length (8 - 128 characters)</label>
+            <input type="number" min="8" max="128" value="8" id="charLength">
+            
+            <label for="checkLowCase">Include Lowecase</label>
+            <input type="checkbox" id="checkLowCase">
+
+            <label for="checkUpCase">Include Uppercase</label>
+            <input type="checkbox" id="checkUpCase">
+
+            <label for="checkDigit">Include Numbers</label>
+            <input type="checkbox" id="checkDigit">
+
+            <label for="checkSpecial">Include Special Characters</label>
+            <input type="checkbox" id="checkSpecial">
+      
+            <button type="submit" id="generate" class="btn">Generate Password</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
