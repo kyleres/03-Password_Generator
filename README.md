@@ -1,4 +1,4 @@
-# 03-Homework - Random Password Generator
+# 03-Homework - Password Generator
 
 ## Introduction
 For our third homework assignment, we were tasked with creating a random password generator that would meet certain requirements provided by the user. This exercise was meant to develop our skills for Javascript and to be more comfortable with programming logic.
