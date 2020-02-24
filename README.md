@@ -48,9 +48,7 @@ My goal for this assignment was to go beyond my surface-level understanding of J
         * added functionality for password length value and checkboxes
         * added functionality for password display
         * added alerts
-
-## Framework
-### Built with Bootstrap
+* tested application for functionality and responsiveness
 
 ## Credits
 * Web Dev Simplified for his instructional video on Youtube [here](https://youtu.be/iKo9pDKKHnc) about a similar project. His GitHub repository for the video can be found [here](https://github.com/WebDevSimplified/JavaScript-Password-Generator)
